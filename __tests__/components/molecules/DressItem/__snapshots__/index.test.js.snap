@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DressItem matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 20,
+      "marginRight": 0,
+      "width": 345,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "mockImgUrl",
+      }
+    }
+    style={
+      Object {
+        "height": 550.1351351351351,
+        "marginBottom": 10,
+        "resizeMode": "contain",
+        "width": 345,
+      }
+    }
+  />
+  <Text
+    numberOfLines={2}
+  >
+    mockName
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginTop": 4,
+      }
+    }
+  >
+    $
+    1
+  </Text>
+  <Text>
+    Color: 
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      mockColor
+    </Text>
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginTop": 10,
+        "opacity": 1,
+      }
+    }
+    testID="addToCartButton"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "padding": 10,
+            "width": "100%",
+          },
+          Object {
+            "backgroundColor": "#00aa5b",
+            "borderColor": "#00aa5b",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "white",
+            },
+          ]
+        }
+      >
+        ADD TO CART
+      </Text>
+    </View>
+  </View>
+</View>
+`;

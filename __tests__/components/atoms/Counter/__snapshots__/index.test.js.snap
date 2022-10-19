@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="addButton"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "lightgray",
+          "borderRadius": 100,
+          "height": 30,
+          "justifyContent": "center",
+          "width": 30,
+        }
+      }
+    >
+      <Text>
+        +
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "marginHorizontal": 10,
+      }
+    }
+  >
+    0
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="removeButton"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "lightgray",
+          "borderRadius": 100,
+          "height": 30,
+          "justifyContent": "center",
+          "width": 30,
+        }
+      }
+    >
+      <Text>
+        -
+      </Text>
+    </View>
+  </View>
+</View>
+`;

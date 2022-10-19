@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "marginBottom": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "mockImgUrl",
+      }
+    }
+    style={
+      Object {
+        "height": 127.56756756756756,
+        "marginRight": 10,
+        "resizeMode": "contain",
+        "width": 80,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+    >
+      mockName
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginTop": 4,
+        }
+      }
+    >
+      $
+      1
+    </Text>
+    <Text>
+      Color: 
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        mockColor
+      </Text>
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="addButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "lightgray",
+                "borderRadius": 100,
+                "height": 30,
+                "justifyContent": "center",
+                "width": 30,
+              }
+            }
+          >
+            <Text>
+              +
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          1
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="removeButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "lightgray",
+                "borderRadius": 100,
+                "height": 30,
+                "justifyContent": "center",
+                "width": 30,
+              }
+            }
+          >
+            <Text>
+              -
+            </Text>
+          </View>
+        </View>
+      </View>
+      <Text>
+        Total:
+         
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          $
+          1
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CartItem onPress Remove 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "marginBottom": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "mockImgUrl",
+      }
+    }
+    style={
+      Object {
+        "height": 127.56756756756756,
+        "marginRight": 10,
+        "resizeMode": "contain",
+        "width": 80,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+    >
+      mockName
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginTop": 4,
+        }
+      }
+    >
+      $
+      1
+    </Text>
+    <Text>
+      Color: 
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        mockColor
+      </Text>
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="addButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "lightgray",
+                "borderRadius": 100,
+                "height": 30,
+                "justifyContent": "center",
+                "width": 30,
+              }
+            }
+          >
+            <Text>
+              +
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          1
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="removeButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "lightgray",
+                "borderRadius": 100,
+                "height": 30,
+                "justifyContent": "center",
+                "width": 30,
+              }
+            }
+          >
+            <Text>
+              -
+            </Text>
+          </View>
+        </View>
+      </View>
+      <Text>
+        Total:
+         
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          $
+          1
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;

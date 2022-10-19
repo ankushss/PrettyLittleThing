@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigator matches snapshot 1`] = `
+<NavigationContainer>
+  <Navigator
+    screenOptions={
+      Object {
+        "tabBarActiveTintColor": "#00aa5b",
+      }
+    }
+  >
+    <Screen
+      component={[Function]}
+      name="Home"
+      options={
+        Object {
+          "tabBarIcon": [Function],
+        }
+      }
+    />
+    <Screen
+      component={[Function]}
+      name="Cart"
+      options={
+        Object {
+          "tabBarBadge": null,
+          "tabBarIcon": [Function],
+        }
+      }
+    />
+  </Navigator>
+</NavigationContainer>
+`;
